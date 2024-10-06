@@ -6,6 +6,9 @@
 - `docker container run -p <port>:<port running on container> -it <id> /bin/bash`
 - `docker container run -p 8000:3000 -it pwn /bin/bash`
 
+- remove after exit
+- `docker container run --rm -p 8000:3000 -it pwn /bin/bash`
+
 # copy
 - local to container
   - `docker container cp <file path of local> <id>:<path in container>` 
