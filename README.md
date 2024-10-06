@@ -23,8 +23,11 @@
   - `docker container cp <id>:<file path in container> <path of local>` 
   - `docker cp 4bb416536c04:/app/chall ./`
 
+# kill container
+- `docker container kill <hash-id>`
+
 # remove all
-- Containers
+- Containers  (in case you didn't set `--rm` when run a container)
 - `docker stop $(docker ps -a -q)`
 - `docker rm $(docker ps -a -q)`
 
