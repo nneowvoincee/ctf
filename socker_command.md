@@ -4,13 +4,13 @@
 
 # run
 - `docker container run -p <port>:<port running on container> -it <id> /bin/bash`
-- `docker container run -p 8000:3000 -it pwn /bin/bash`
+- `docker container run -p 3000:3000 -it pwn /bin/bash`
 
 - remove after exit
-- `docker container run --rm -p 8000:3000 -it pwn /bin/bash`
+- `docker container run --rm -p 3000:3000 -it pwn /bin/bash`
 
 - volume
-- ``` docker container run --rm -v "`pwd`:chal" -p 8000:3000 -it pwn /bin/bash ```
+- ``` docker container run --rm -v "`pwd`:chal" -p 3000:3000 -it pwn /bin/bash ```
 
 # copy
 - local to container
