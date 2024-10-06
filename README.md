@@ -27,12 +27,12 @@
 - `docker container kill <hash-id>`
 
 # remove all
-- Containers  (in case you didn't set `--rm` when run a container)
-- `docker stop $(docker ps -a -q)`
-- `docker rm $(docker ps -a -q)`
+  1. Containers
+  - `docker stop $(docker ps -a -q)`
+  - `docker rm $(docker ps -a -q)`
 
-- Images
-- `docker rmi $(docker images -a -q)`
+  2. Images
+  - `docker rmi $(docker images -a -q)`
 
 # remove volume with container
 - `docker rm -v container_name`
