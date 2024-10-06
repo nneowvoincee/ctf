@@ -16,10 +16,10 @@
 - `docker container run --rm -p 3000:3000 -it pwn /bin/bash`
 
 # copy
-- local to container
+  ## local to container
   - `docker container cp <file path of local> <id>:<path in container>` 
   - `docker cp ./file 4bb416536c04:/app`
-- container to local
+  ## container to local
   - `docker container cp <id>:<file path in container> <path of local>` 
   - `docker cp 4bb416536c04:/app/chall ./`
 
