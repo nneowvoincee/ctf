@@ -9,6 +9,9 @@
 - remove after exit
 - `docker container run --rm -p 8000:3000 -it pwn /bin/bash`
 
+- volume
+- `docker container run --rm -v "`pwd`:chal" -p 8000:3000 -it pwn /bin/bash`
+
 # copy
 - local to container
   - `docker container cp <file path of local> <id>:<path in container>` 
