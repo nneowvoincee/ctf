@@ -4,7 +4,7 @@
 - `docker image build -t pwn .`
 
 # create temporary container
-- `docker run -it --rm -v $(pwd):/chal --platform linux/amd64 <image-version> /bin/bash`
+- `docker run -it --rm -v $(pwd):/chal --platform linux/amd64 <image-version>`
 
 # run
 - `docker container run -p <port>:<port running on container> -it <id> /bin/bash`
