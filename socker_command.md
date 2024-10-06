@@ -13,3 +13,16 @@
 - container to local
   - `docker container cp <id>:<file path in container> <path of local>` 
   - `docker cp 4bb416536c04:/app/chall ./`
+
+# remove all
+- Containers
+- `docker stop $(docker ps -a -q)`
+- `docker rm $(docker ps -a -q)`
+
+- Images
+- `docker rmi $(docker images -a -q)`
+
+# remove volume with container
+- `docker rm -v container_name`
+- `docker rm -v pwn`
+ 
