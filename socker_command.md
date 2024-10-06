@@ -9,7 +9,7 @@
 # copy
 - local to container
   - 
-  - `docker cp ./file pwn:/app'
+  - `docker cp ./file pwn:/app`
 - container to local
   - `docker container cp <id>:<file path in container> <path of local>` 
-  - `docker cp pwn:/app/chall ./'
+  - `docker cp pwn:/app/chall ./`
