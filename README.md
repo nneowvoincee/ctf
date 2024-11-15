@@ -2,8 +2,6 @@
 # build
 - `docker image build -t <id> .`
 - `docker image build -t pwn .`
-  ### docker compose build
-  - `docker-compose up -d --build <challenge_name>`
 
 # create temporary container
 - `docker run -it --rm -v $(pwd):/chal --platform linux/amd64 <image-version>`
