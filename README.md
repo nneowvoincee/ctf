@@ -24,6 +24,7 @@
   - `docker cp 4bb416536c04:/app/chall ./`
 
 # kill container
+- `exit` in container shell
 - `docker container kill <hash-id>`
 
 # remove all
