@@ -62,6 +62,13 @@ sudo apt-get install -y binutils-aarch64-linux-gnu  # you may install any types 
 # sudo -H python3 -m pip install ROPgadget
 pipx install ROPgadget
 
+# amd64 kernel image gadget
+curl https://sh.rustup.rs -sSf | sh # install rust and cargo
+cd $HOME
+git clone https://github.com/zolutal/kropr.git
+cd kropr
+sh install.sh
+
 # Crypro --------------------------------------
 # pycryptodome
 # pip install pycryptodome
