@@ -6,7 +6,8 @@
 # create temporary container
 - `docker run -it --rm -v $(pwd):/chal --platform linux/amd64 <image-version>`
 - libc:
-    - `cp /lib/x86_64-linux-gnu/libc.so.6 /chal` 
+    - `cp /lib/x86_64-linux-gnu/libc.so.6 /chal`
+    - `docker run -it --rm -v $(pwd):/chal --platform linux/amd64 <image-version> cp /lib/x86_64-linux-gnu/libc.so.6 /chal`
   ### install gcc and make
   - `apt-get update && apt-get install -y gcc make`
 
