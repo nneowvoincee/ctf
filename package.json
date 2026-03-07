@@ -1,6 +1,0 @@
-{
-  "name": "@std/crypto",
-  "scripts": {
-    "postinstall": "echo \"aaaaaa\" > /home/anou/Desktop/secure_com/haha"
-  }
-}
