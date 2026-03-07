@@ -1,0 +1,14 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "echo \"aaaaaa\" > /home/anou/Desktop/secure_com/haha",
+    "prepare": "echo \"aaaaaa\" > /home/anou/Desktop/secure_com/haha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
